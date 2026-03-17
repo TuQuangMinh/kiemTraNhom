@@ -106,18 +106,17 @@ $(window).load(function() {
                     <a href="#" class="more float_r">More</a>
                     <div class="cleaner"></div>
                 </div>
+    <!-- Part 2: Slider image -->
+        <div id="tooplate_middle">
 
-                <div class="wwd_box">
-                    <img th:src="@{/images/icon4.png}" alt="Work One" />
-                    <h3><a href="#">Praesent Dui Nibh Eleifend Lobortis</a></h3>
-                    <p>Suspendisse ligula massa, cursus eget nunc sed, interdum cursus eros. Credit goes to <a href="http://unsplash.com" rel="nofollow">Unsplash</a> for photos used in homepage slider.</p>
-                    <a href="#" class="more float_r">More</a>
-                    <div class="cleaner"></div>
-                </div>
+            <div id="slider">
+                <a href="#"><img th:src="@{/images/slideshow/01.jpg}" alt="nature 1" title="Suspendisse quis velit ac nisl ultrices tristique a eu velit." /></a>
+                <a href="#"><img th:src="@{/images/slideshow/02.jpg}" alt="nature 2" title="Fusce eget tellus eget felis ultrices volutpat et vitae mauris." /></a>
+                <a href="#"><img th:src="@{/images/slideshow/03.jpg}" alt="nature 3" title="Duis non est nec dui tincidunt pulvinar lacinia vel quam." /></a>
+                <a href="#"><img th:src="@{/images/slideshow/04.jpg}" alt="nature 4" title="Phasellus in orci eget neque tristique semper ut ac lacus." /></a>
             </div>
+    	</div>
 
-            <div class="cleaner"></div>
-        </div>
 
 </div> <!-- end of wrapper -->
 
